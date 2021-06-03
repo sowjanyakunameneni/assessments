@@ -22,7 +22,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
  * @author Sowjanya Gonuguntla
  */
 @ControllerAdvice
-@RestController
 public class ClientExceptionHandler extends ResponseEntityExceptionHandler {
 
 	@ExceptionHandler(Exception.class)
